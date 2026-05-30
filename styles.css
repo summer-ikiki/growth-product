@@ -71,6 +71,7 @@ img {
 .brand,
 .top-actions,
 .navlinks,
+.language-switch,
 .button,
 .icon-button,
 .hero-pills span,
@@ -110,6 +111,7 @@ img {
   color: var(--muted);
   font-size: 0.88rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .navlinks a:hover,
@@ -121,6 +123,45 @@ img {
 
 .top-actions {
   gap: 8px;
+}
+
+.language-switch {
+  gap: 2px;
+  min-height: 40px;
+  padding: 3px;
+  border: 1px solid rgba(22, 32, 42, 0.14);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.language-switch button {
+  min-width: 38px;
+  min-height: 32px;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 850;
+  cursor: pointer;
+}
+
+.language-switch button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.language-switch button:hover,
+.language-switch button:focus-visible {
+  color: var(--red);
+  outline: 0;
+}
+
+.language-switch button[aria-pressed="true"]:hover,
+.language-switch button[aria-pressed="true"]:focus-visible {
+  color: var(--paper);
 }
 
 .icon-button {
@@ -142,6 +183,7 @@ img {
 
 .icon-button svg,
 .button svg,
+.brand-glyph,
 .hero-pills svg,
 .case-topline svg,
 .system-column svg,
@@ -151,6 +193,17 @@ img {
   height: 18px;
   stroke-width: 2.2;
   flex: 0 0 auto;
+}
+
+.brand-glyph {
+  display: inline-grid;
+  place-items: center;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  font-size: 0.62rem;
+  font-weight: 850;
+  line-height: 1;
+  letter-spacing: 0;
 }
 
 main {
@@ -201,6 +254,11 @@ h1 {
   font-family: "Source Serif 4", Georgia, serif;
   font-size: clamp(3.2rem, 7.5vw, 6.6rem);
   font-weight: 750;
+}
+
+html[lang="zh-Hans"] h1 {
+  font-size: 5.5rem;
+  line-height: 1.06;
 }
 
 h2 {
@@ -835,6 +893,15 @@ section {
     margin-left: auto;
   }
 
+  .navlinks {
+    gap: 0;
+  }
+
+  .navlinks a {
+    padding: 8px;
+    font-size: 0.82rem;
+  }
+
   .hero {
     gap: 24px;
     padding: 44px 0 28px;
@@ -842,6 +909,10 @@ section {
 
   h1 {
     font-size: clamp(2.55rem, 15vw, 4.2rem);
+  }
+
+  html[lang="zh-Hans"] h1 {
+    font-size: 3.45rem;
   }
 
   .hero-pills span,
@@ -892,6 +963,7 @@ section {
 @media (prefers-reduced-motion: no-preference) {
   .button,
   .icon-button,
+  .language-switch button,
   .navlinks a,
   .case-card,
   .proof-card,
