@@ -15,8 +15,8 @@ const initialMeta = {
 
 const zhMeta = {
   lang: "zh-Hans",
-  title: "Zhe Chen | 内容社区增长产品作品集",
-  description: "陈喆的内容社区增长产品作品集：内容平台洞察、创作者生态、北美校园/社群增长、AI-native 工作流与增长产品决策。",
+  title: "Zhe Chen | 增长产品与增长测量系统作品集",
+  description: "陈喆的增长产品作品集：内容平台洞察、创作者生态、北美校园/社群增长、增长测量/归因意识、AI-native 工作流与增长产品决策。",
 };
 
 const translations = [
@@ -58,12 +58,12 @@ const translations = [
   {
     selector: ".hero",
     attr: "aria-label",
-    zh: "内容社区增长产品概览",
+    zh: "增长产品与增长测量系统概览",
   },
   {
     selector: ".hero .eyebrow",
     mode: "text",
-    zh: "内容社区增长产品作品集",
+    zh: "内容增长 + 增长测量系统",
   },
   {
     selector: ".hero h1",
@@ -73,7 +73,7 @@ const translations = [
   {
     selector: ".hero .lede",
     mode: "html",
-    zh: "我擅长把 <strong>内容平台洞察</strong>、<strong>创作者生态</strong>、北美校园/社群获客、<strong>0 到 1 产品定义</strong>和 <strong>AI-native 工作流</strong>，拆成可测试、可追踪、可复用的增长闭环。",
+    zh: "我擅长把 <strong>内容平台洞察</strong>、<strong>创作者生态</strong>、北美校园/社群获客、<strong>0 到 1 产品定义</strong>、<strong>UTM / 渠道质量追踪</strong>、ROI 复盘和 <strong>AI-native 工作流</strong>，拆成可测试、可追踪、可复用的增长闭环。",
   },
   {
     selector: ".hero-pills",
@@ -84,7 +84,8 @@ const translations = [
     selector: ".hero-pills span",
     mode: "html",
     zh: [
-      '<i data-lucide="chart-no-axes-combined"></i> 内容社区增长',
+      '<i data-lucide="chart-no-axes-combined"></i> 增长产品系统',
+      '<i data-lucide="scan-line"></i> 归因意识与数据复盘',
       '<i data-lucide="sparkles"></i> AI 工作流搭建',
       '<i data-lucide="users-round"></i> 创作者生态运营',
     ],
@@ -117,7 +118,7 @@ const translations = [
   {
     selector: ".hero-visual figcaption",
     mode: "text",
-    zh: "把内容洞察、创作者渠道、AI 工作流和产品判断连成增长闭环。",
+    zh: "把内容洞察、创作者渠道、增长测量、AI 工作流和产品判断连成增长闭环。",
   },
   {
     selector: ".mini-funnel",
@@ -127,12 +128,12 @@ const translations = [
   {
     selector: ".mini-funnel div span",
     mode: "text",
-    zh: ["海报 / QR", "Message Ditto", "资料设置", "PostHog / UTM"],
+    zh: ["海报 / QR", "Message Ditto", "资料设置", "UTM / 事件"],
   },
   {
     selector: ".mini-funnel div strong",
     mode: "text",
-    zh: ["线下信号", "CTA 测试", "激活", "决策闭环"],
+    zh: ["线下信号", "CTA 测试", "激活", "测量闭环"],
   },
   {
     selector: ".signal-band span",
@@ -140,8 +141,8 @@ const translations = [
     zh: [
       '在 DITTO 通过 <strong>校园、社群、合作与线下到线上渠道</strong>推动用户增长。',
       '<strong>活动报名/注册</strong>覆盖 733 所美国高校，证明校园增长的规模化能力。',
-      '<strong>RED 曝光</strong>转化为 1,000 个精准报名，证明内容到转化的判断力。',
-      '沉淀 RED、TikTok、Instagram 上的 <strong>创作者/KOL 资源</strong>，能直接服务内容平台增长。',
+      '高转化社群渠道的 <strong>邮箱验证率</strong>，约为平台平均值 20x。',
+      '通过付费媒体、本地合作、看板和 ROI 复盘实现 <strong>用户增长 / 营收增长</strong>。',
     ],
   },
   {
@@ -152,20 +153,20 @@ const translations = [
   {
     selector: "#fit h2",
     mode: "text",
-    zh: "如果内容平台要找一个既懂内容、又能把增长落地的人，我的证据主要在这四类。",
+    zh: "如果全球增长团队要找一个既懂内容、又能把增长测量和落地串起来的人，我的证据主要在这四类。",
   },
   {
     selector: ".fit-grid article h3",
     mode: "text",
-    zh: ["能做增长判断", "能从 0 到 1 定义产品", "懂内容驱动增长", "能用 AI 搭工作流"],
+    zh: ["能搭增长判断与测量系统", "能从 0 到 1 定义产品", "懂内容驱动获客", "能用 AI 搭工作流"],
   },
   {
     selector: ".fit-grid article p",
     mode: "html",
     zh: [
-      '做过校园增长系统、品牌合作、<strong>UTM 渠道质量追踪</strong>和高转化社群渠道，不只是做曝光，也能判断哪里值得继续投入。',
+      '做过校园增长系统、品牌合作、<strong>UTM 渠道质量追踪</strong>、邮箱验证信号和 ROI 复盘，不只是做曝光，也能判断哪里值得继续投入。',
       '从 PandaPal 的 <strong>BP/PRD/BRD</strong>、<strong>500+ 调研反馈</strong>到小程序早期体验路径，能把模糊需求收敛成可启动的产品方案。',
-      'RED 账号从 <strong>0 到 7K+</strong>，首篇笔记 <strong>1M 曝光</strong>，<strong>100K+ 社群触达</strong>，证明我对 RED/TikTok/知乎/微博的内容机制有实战体感。',
+      'RED 账号从 <strong>0 到 7K+</strong>，首篇笔记 <strong>1M 曝光</strong>，<strong>100K+ 社群触达</strong>，证明我能把内容机制转成获客和社群转化。',
       '能 <strong>vibe-code InfluencerOps</strong>、RED 爆款文案 Agent、DPU 和活动工作流，把重复增长动作变成 <strong>AI 辅助系统</strong>。',
     ],
   },
@@ -177,12 +178,12 @@ const translations = [
   {
     selector: "#why h2",
     mode: "text",
-    zh: "我的优势不是单点做营销活动，而是把内容、渠道、产品路径和数据复盘连成闭环。",
+    zh: "我的优势不是单点做营销活动，而是把内容、渠道、产品路径和增长测量连成闭环。",
   },
   {
     selector: "#why .section-heading.split > p:last-child",
     mode: "html",
-    zh: "我适合做那些增长高度依赖 <strong>内容发现、社区信任、创作者供给和用户激活</strong> 的产品。",
+    zh: "我适合做那些增长高度依赖 <strong>内容发现、社区信任、创作者供给、用户激活和测量质量</strong> 的产品。",
   },
   {
     selector: ".why-grid h3",
@@ -190,7 +191,7 @@ const translations = [
     zh: [
       '<i data-lucide="compass"></i> 真正懂平台语感',
       '<i data-lucide="route"></i> 熟悉北美获客场景',
-      '<i data-lucide="workflow"></i> 能把营销动作产品化',
+      '<i data-lucide="workflow"></i> 能把增长测量产品化',
     ],
   },
   {
@@ -199,7 +200,7 @@ const translations = [
     zh: [
       "我既做过创作者，也做过运营和产品搭建，理解 RED/TikTok 式分发里的选题、钩子、信任信号、评论、收藏、社群转化和创意迭代。",
       "我做过校园网络、学生社群、创作者/KOL 资源、品牌合作、本地活动、付费媒体和线下到线上漏斗，知道北美年轻用户从哪里被触达。",
-      "我能把看起来零散的增长动作拆成用户路径、MVP 取舍、新用户引导 CTA、生命周期触达、渠道质量追踪和可复用 AI 工作流。",
+      "我能把看起来零散的增长动作拆成用户路径、MVP 取舍、新用户引导 CTA、生命周期触达、UTM / 渠道质量追踪和可复用 AI 工作流。",
     ],
   },
   {
@@ -240,7 +241,7 @@ const translations = [
   {
     selector: "#journey .section-heading.split > p:last-child",
     mode: "html",
-    zh: "这个案例最能说明我的工作方式：不只是做活动，而是把品牌合作、校园注意力、<strong>线下曝光</strong>、移动端新用户引导、社群激活、<strong>生命周期触达</strong>和数据追踪连成一套增长产品系统。",
+    zh: "这个案例最能说明我的工作方式：不只是做活动，而是把品牌合作、校园注意力、<strong>线下曝光</strong>、移动端新用户引导、社群激活、<strong>生命周期触达</strong>、归因意识和数据追踪连成一套增长产品系统。",
   },
   {
     selector: ".journey-map h3",
@@ -254,7 +255,7 @@ const translations = [
       '校园海报、本地活动、合作渠道和学生社群不是单纯做声量，而是在真实场景里制造 <strong>需求信号</strong>。',
       '<strong>学校定制页面</strong>和 `Message Ditto` CTA 降低用户进入 iMessage/SMS 新用户引导前的理解成本。',
       '通过邮箱验证、头像/资料设置、<strong>每周匹配推送</strong>和分层召回，把用户推向第一次感知产品价值。',
-      '<strong>UTM 和渠道质量追踪</strong>帮助判断哪些社群和触点更高意图，并把重复活动沉淀成增长打法。',
+      '<strong>UTM 和渠道质量追踪</strong>帮助判断哪些社群和触点更高意图，而不是只看原始流量规模，并把重复活动沉淀成增长打法。',
     ],
   },
   {
@@ -279,17 +280,17 @@ const translations = [
   {
     selector: ".decision-section .section-heading.split > p:last-child",
     mode: "html",
-    zh: "我希望面试官看到的是：我不只会执行，还会看 <strong>用户状态</strong>、摩擦点、渠道质量和首次价值时刻，再把它转化成产品路径与工作流决策。",
+    zh: "我希望面试官看到的是：我不只会执行，还会看 <strong>用户状态</strong>、摩擦点、渠道质量、首次价值时刻和测量缺口，再把它转化成产品路径、追踪逻辑与工作流决策。",
   },
   {
     selector: ".decision-card h3",
     mode: "text",
-    zh: ["把线下注意力转成可衡量激活", "把分散学生需求收敛成 MVP 范围"],
+    zh: ["把线下注意力转成可衡量激活", "把分散学生需求收敛成 MVP 范围", "把付费/本地渠道转成获客决策"],
   },
   {
     selector: ".decision-card dt",
     mode: "text",
-    zh: ["用户状态", "摩擦点", "决策", "复盘", "用户状态", "摩擦点", "决策", "复盘"],
+    zh: ["用户状态", "摩擦点", "决策", "复盘", "用户状态", "摩擦点", "决策", "复盘", "用户状态", "摩擦点", "决策", "复盘"],
   },
   {
     selector: ".decision-card dd",
@@ -303,6 +304,10 @@ const translations = [
       "信任、内容供给、社区密度和商业化路径都会影响第一版应该先做什么。",
       "优先定义 Panda Map、Panda Digest、Panda Mall、早期小程序路径和私域转化。",
       "RED/TikTok 内容可以先验证需求，再扩大完整产品体验。",
+      "学生市场需求来自付费搜索/社媒、网站触点、线下合作方和校园组织。",
+      "渠道表现需要把预算节奏、创意质量、转化信号和本地合作背景放在一起看。",
+      "搭建覆盖付费媒体、网站触点、线下合作和 Tableau 看板的渠道表现复盘系统。",
+      "当 ROI、转化质量和本地场景被放在同一套获客系统里看，增长决策会更准确。",
     ],
   },
   {
@@ -313,7 +318,7 @@ const translations = [
   {
     selector: "#cases h2",
     mode: "text",
-    zh: "这些经历证明我能从内容、产品、渠道和 AI 工作流四个方向做增长。",
+    zh: "这些经历证明我能从内容、产品、渠道、测量和 AI 工作流几个方向做增长。",
   },
   {
     selector: "#cases .case-card h3",
@@ -324,19 +329,19 @@ const translations = [
       "AI 创作者增长工作台",
       "RED 爆款文案 Agent",
       "社交产品冷启动",
-      "付费与本地增长",
+      "付费与本地增长测量",
     ],
   },
   {
     selector: "#cases .case-card p",
     mode: "html",
     zh: [
-      '搭建可复制增长系统，覆盖 <strong>战略品牌合作</strong>、校园海报、ambassador、学生社群、本地活动、<strong>onboarding 工作流</strong>与渠道质量追踪。',
+      '搭建可复制增长系统，覆盖 <strong>战略品牌合作</strong>、校园海报、ambassador、学生社群、本地活动、<strong>onboarding 工作流</strong>、UTM 追踪与渠道质量复盘。',
       '围绕海外学生生活方式需求创立并定义 PandaPal，覆盖 <strong>产品模块</strong>、用户调研、<strong>MVP 范围</strong>、RED/TikTok 增长和社区/商业闭环。',
       '<strong>Vibe-coded</strong> 创作者增长工作流原型，覆盖找人、评分、触达、内容审核、CPM、报名、转化、报告与 <strong>续约决策</strong>。',
       '把 <strong>RED 平台内容规律</strong>转成 Coze 工作流，用于钩子、标题、角度、语气与迭代，并登上 RED 文案工具榜 <strong>#1</strong>。',
       '联合创立技能交换社交产品，并通过网站、demo 视频、<strong>社交视频证据</strong>和线下激活，把 <strong>产品教育</strong>做成增长闭环。',
-      '通过 <strong>付费媒体</strong>、本地合作、网站触点、校园获客和 <strong>Tableau KPI 看板</strong>推动学生市场增长。',
+      '通过 <strong>付费媒体</strong>、本地合作、网站触点、校园获客、<strong>Tableau KPI 看板</strong>、预算节奏和 ROI 复盘推动学生市场增长。',
     ],
   },
   {
@@ -374,7 +379,7 @@ const translations = [
   {
     selector: "#proof .section-heading.split > p:last-child",
     mode: "html",
-    zh: "这些证据帮助面试官快速判断：我做过真实产品、真实增长、真实内容平台成绩，也能用 <strong>AI 工作流</strong>把方法沉淀下来。",
+    zh: "这些证据帮助面试官快速判断：我做过真实产品、真实增长、真实内容平台成绩，也能用 <strong>AI 工作流</strong>和测量导向的方法把经验沉淀下来。",
   },
   {
     selector: "#proof .proof-card h3",
@@ -397,7 +402,7 @@ const translations = [
       '技能交换社交产品，包含公开网站、<strong>产品教育</strong>、demo 素材、社交视频证据与线下激活材料。',
       '把 <strong>RED 内容规律</strong>转成 Coze 工作流，并登上 RED 文案工具榜 <strong>#1</strong>。',
       'RED 首篇笔记 <strong>1M 曝光</strong>，TikTok <strong>24K+ 粉丝</strong>，知乎 <strong>30M+ 阅读</strong>，单条微博 <strong>6M 阅读</strong>。',
-      '通过 <strong>付费媒体</strong>、本地合作、校园渠道、网站触点、<strong>Tableau 看板</strong>和 ROI 复盘推动学生市场获客。',
+      '通过 <strong>付费媒体</strong>、本地合作、校园渠道、网站触点、<strong>Tableau 看板</strong>、预算节奏和 ROI 复盘推动学生市场获客。',
     ],
   },
   {
@@ -416,6 +421,7 @@ const translations = [
     zh: [
       "DITTO.AI",
       "PandaPal",
+      "ENCMOBILE",
       "DITTO.AI",
       "PandaPal",
       "InfluencerOps",
@@ -438,12 +444,12 @@ const translations = [
   {
     selector: "#systems h2",
     mode: "text",
-    zh: "我的工作方式：先判断用户为什么动，再设计增长动作怎么持续。",
+    zh: "我的工作方式：先判断用户为什么动，再设计增长动作如何被测量和复用。",
   },
   {
     selector: "#systems .section-heading.split > p:last-child",
     mode: "html",
-    zh: "DITTO、PandaPal、SWAP 和 ENCMOBILE 背后的共同方法是：先 <strong>定义用户状态</strong>，识别 <strong>转化时刻</strong>，再设计渠道、创意、产品路径和数据复盘，最后沉淀成 <strong>可复用工作流</strong>。",
+    zh: "DITTO、PandaPal、SWAP 和 ENCMOBILE 背后的共同方法是：先 <strong>定义用户状态</strong>，识别 <strong>转化时刻</strong>，再设计渠道、创意、产品路径、ROI / 渠道质量复盘，最后沉淀成 <strong>可复用工作流</strong>。",
   },
   {
     selector: ".system-column h3",
@@ -458,9 +464,9 @@ const translations = [
     selector: ".system-column p",
     mode: "html",
     zh: [
-      '从 RED 评论、<strong>创作者质量</strong>、校园扫码、学校级转化、社群问题、付费媒体表现和线下社交证明里找增长信号。',
-      '把信号转成 <strong>用户路径</strong>、MVP 模块、新用户引导 CTA、创作者评分表、UTM 系统、PostHog 事件、DPU 文档和 <strong>AI 辅助内部工具</strong>。',
-      '通过实验记录、分层跟进、活动报告、<strong>单个报名成本</strong>、内容质量和续约决策，反向输入产品路线图。',
+      '从 RED 评论、<strong>创作者质量</strong>、校园扫码、学校级转化、邮箱验证、社群问题、付费媒体表现和线下社交证明里找增长信号。',
+      '把信号转成 <strong>用户路径</strong>、MVP 模块、新用户引导 CTA、创作者评分表、UTM 系统、事件/追踪逻辑、DPU 文档和 <strong>AI 辅助内部工具</strong>。',
+      '通过实验记录、分层跟进、活动报告、<strong>单个报名成本</strong>、ROI 复盘、渠道质量分析和续约决策，反向输入产品路线图。',
     ],
   },
   {
@@ -498,12 +504,12 @@ const translations = [
   {
     selector: "#contact h2",
     mode: "text",
-    zh: "我适合需要内容判断、增长落地和 AI 工作流能力的内容平台团队。",
+    zh: "我适合需要内容判断、增长落地、测量意识和 AI 工作流能力的内容平台团队。",
   },
   {
     selector: "#contact > p:not(.section-kicker)",
     mode: "html",
-    zh: "我最强的候选人画像是：<strong>增长产品</strong> + 整合营销、<strong>RED/TikTok 内容机制</strong>、北美校园/社群渠道、创作者生态系统、<strong>AI-native 工作流</strong>和创意表现判断。",
+    zh: "我最强的候选人画像是：<strong>增长产品</strong> + 整合营销、<strong>RED/TikTok 内容机制</strong>、北美校园/社群渠道、创作者生态系统、<strong>增长测量 / 归因意识</strong>、<strong>AI-native 工作流</strong>和创意表现判断。",
   },
   {
     selector: "#contact .actions .button",
@@ -517,7 +523,7 @@ const translations = [
   {
     selector: ".footer span",
     mode: "text",
-    zh: ["Zhe Chen | 内容社区增长产品作品集", "洛杉矶 / Los Angeles, CA"],
+    zh: ["Zhe Chen | 增长产品与增长测量系统作品集", "洛杉矶 / Los Angeles, CA"],
   },
 ];
 

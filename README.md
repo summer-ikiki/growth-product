@@ -1,6 +1,6 @@
-# Growth Product Portfolio Site
+# Growth Product & Measurement Systems Portfolio Site
 
-Purpose: reusable content-led growth product portfolio for Zhe Chen, currently used alongside a tailored RedNote / Xiaohongshu Growth Product resume.
+Purpose: reusable growth product portfolio for Zhe Chen, currently used alongside a tailored RedNote / Xiaohongshu Growth Product resume. The site now supports both content-led growth and measurement / attribution-oriented growth product positioning.
 
 Local entry:
 
@@ -18,4 +18,5 @@ Current status:
 
 - Static HTML/CSS/JS site.
 - No dev server required.
-- Resume PDF is linked at `assets/Zhe-Chen-RedNote-Growth-Product-Resume.pdf`.
+- Primary resume PDF is linked at `assets/Zhe-Chen-RedNote-Growth-Product-Dual-Resume.pdf`.
+- The earlier single-role PDF remains available at `assets/Zhe-Chen-RedNote-Growth-Product-Resume.pdf`.
