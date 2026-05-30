@@ -261,6 +261,10 @@ html[lang="zh-Hans"] h1 {
   line-height: 1.06;
 }
 
+html[lang="zh-Hans"] .case-topline {
+  text-transform: none;
+}
+
 h2 {
   margin-bottom: 0;
   font-family: "Source Serif 4", Georgia, serif;
